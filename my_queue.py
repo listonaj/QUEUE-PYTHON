@@ -28,3 +28,9 @@ elemremoved = customqueue.dequeue()
 print(f"I remove the first element of the list {elemremoved}")
 print(customqueue)
 
+print("\nTesting the peek method")
+print(customqueue.peek())
+
+print("\n Testing the delete method")
+customqueue.delete()
+
