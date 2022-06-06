@@ -30,8 +30,8 @@ class Queue:
         if self.isEmpty():
             return "There is not any node in the Queue"
         else:
-            return self.linkedList.head
+            return self.items[0]
     
     def delete(self):
-        self.linkedList.head = None
-        self.linkedList.tail = None
+        self.items= None
+        
